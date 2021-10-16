@@ -1,0 +1,19 @@
+{
+  "name": "netology",
+  "version": "1.0.0",
+  "description": "homeworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Klyushin",
+  "license": "ISC",
+  "bin": {
+    "current2": "./current.js",
+    "add2": "./add.js",
+    "sub2": "./sub.js"
+  },
+  "dependencies": {
+    "yargs": "^17.2.1"
+  }
+}
